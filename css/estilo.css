@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  h1 {
+    color: #333;
+  }
+
+  .conteiner {
+    background-color: rgb(180, 88, 13);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .conteiner h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+
+  .menu {
+    list-style-type: none;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .menu li {
+    display: inline-block;
+    margin-right: 1px;
+    
+  }
+
+  .menu li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    
+  }
+
+  .menu li a:hover {
+    background-color: #333;
+    color: #fff;
+  }
